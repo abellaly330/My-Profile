@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 
+        radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+        radial-gradient(circle, #1e3a8a, #111149);
+    background-size: 30px 30px, cover;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 5rem;
+    color: white;
+        font-family: 'Orbitron', sans-serif;
+}
+
+.text .name {
+    font-size: 3rem;
+    color: rgb(37, 139, 255);
+}
+
+.text .role {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.social {
+    display: flex;  
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social a {
+    font-size: 2rem;
+    color: rgba(57, 143, 255, 0.644);
+    text-decoration: none;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+}
+
+.next a {
+    font-size: 1rem;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.next i {
+    margin-top: 22px;
+    margin-left: 10px;
+    color: white;
+}
