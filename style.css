@@ -31,7 +31,7 @@ body {
 }
 
 .text .role {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1.5rem;
     color: white;
 }
@@ -59,10 +59,24 @@ body {
     margin-top: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    border-radius: 50px;
+    border:2px #111149 solid ;
 }
 
 .next i {
-    margin-top: 22px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 1px;
     color: white;
+}
+
+.down h1 {
+    font-size: 15px;
+    color: #15155a;
+}
+.down  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 5rem;
 }
